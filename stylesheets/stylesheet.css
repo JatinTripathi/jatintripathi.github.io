@@ -46,7 +46,7 @@
 /*About Division Styling*/
 
 .about {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 100px;
   color: #1a1a1a;
 }
@@ -71,10 +71,51 @@
 
 /*Additional Contact Division Styling*/
 
-.portFS {
-  padding-top: 30px;
-  background-image: linear-gradient(to right, #00cc66 0, #0000b3 100%);
-  color: #ccccff;
+.codeHead {
+  font-size: 25px;
 }
 
-/*Additional Contact Division Styling*/
+.cursor{
+  font-size: 20px;
+  animation: blink 1s;
+  -moz-animation:blink 1s infinite;
+  -webkit-animation:blink 1s infinite;
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+.myButton2 {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  font-family: Arial;
+  color: #666666;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 4px 8px 4px 8px;
+  margin: 3px 3px 3px 3px;
+}
+
+.img {
+  opacity:1;
+  width:70%;
+  height:100px;
+  transition: opacity .5s, width .5s, height .5s;
+}
+
+.img:hover {
+  opacity:0.7;
+  width:74%;
+  height:110px;
+}
