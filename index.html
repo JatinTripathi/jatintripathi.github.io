@@ -68,7 +68,7 @@
             <code class='codeHead'>node server.js<code class="cursor"> |</code></code>
             <br>
             <h2 style="font-family:josefin sans;font-weight:bolder">Node.js</h2>
-            <p style="font-family:josefin sans;font-size:18px">For Asynchronously handeling of heavy concurrent I/O connections. Increasing the redundancy and Fault Tolerance of the application.</p>
+            <p style="font-family:josefin sans;font-size:18px">For Asynchronously handling of heavy concurrent I/O connections. Increasing the redundancy and Fault Tolerance of the application.</p>
           </div>
         </center>
         <center>
@@ -76,7 +76,7 @@
             <code class='codeHead'>mongod --dbpath=./db<code class="cursor"> |</code></code>
             <br>
             <h2 style="font-family:josefin sans">Mongodb</h2>
-            <p style="font-family:josefin sans;font-size:18px">A Document-Oriented Database for fast prototyping of Scalable Systems. Faster Database Reads and ablity to develope without joints helps in distributed scaling.</p>
+            <p style="font-family:josefin sans;font-size:18px">A Document-Oriented Database for fast prototyping of Scalable Systems. Faster Database Reads and ablity to develop without joints helps in distributed scaling.</p>
           </div>
         </center>
         <center>
@@ -102,9 +102,9 @@
             <h2 style="font-family:'Josefin Sans', sans-serif"><i class="fa fa-sitemap fa-3"></i> &nbsp;API Gateway Microservice</h3><br>
             <a class="btn btn-default myButton2" href="https://github.com/JatinTripathi/api-gateway" target="_blank"><i class="fa fa-github"></i> GitHub Repo</a>
             <a class="btn btn-default myButton2" href="https://hub.docker.com/r/jatintripathi/api-gateway/" target="_blank"> DockerHub Image</a>
-            <div style="font-family:josefin sans;font-size:18px">Working as a first layer of a microservices application, it provides initialization of user experience by authenticating and then autherizing to use other end microservices by reverse proxing all the request to appropriate services.<br>
-            I used Node.js framework for this Microservice with Express.js for Routing. This service also manages session, So for storing user related data and session keys I linked Mongo Docker Container working on default port. <br>
-            Its a plain script with Dockerfile for creating an API gateway with close to really basic UI(working on improvements).</div>
+            <div style="font-family:josefin sans;font-size:18px">Working as a first layer of a microservices application, it provides initialization of user experience by authenticating and then authorizing to use other end microservices by reverse proxing all the request to appropriate services.<br>
+            I used Node.js framework for this Microservice with Express.js for Routing. This service also manages session, so for storing user related data and session keys I linked Mongo Docker Container working on default port. <br>
+            It is a plain script with Dockerfile for creating an API gateway with close to really basic UI(working on improvements).</div>
             <a href="https://github.com/JatinTripathi/api-gateway/blob/master/README.md" target="_blank" style="font-family:josefin sans;font-size:19px;color:#ffffff">[More..]</a>
           </div>
         </div>
@@ -129,14 +129,14 @@
             <h2 style="font-family:'Josefin Sans', sans-serif"><i class="fa fa-sort-amount-asc fa-3"></i> &nbsp;Search Microservice</h3><br>
             <a class="btn btn-default myButton2" href="https://github.com/JatinTripathi/search-service" target="_blank"><i class="fa fa-github"></i> GitHub Repo</a>
             <a class="btn btn-default myButton2" href="https://hub.docker.com/r/jatintripathi/search-service/" target="_blank"> DockerHub Image</a>
-            <p style="font-family:josefin sans;font-size:18px">This is an Elasticsearch application indexing all incoming data of articles applying mapping(Schema) on it then adding it in Index(Database). All the indexed data will be replicated which makes Elasticsearch really High redundant system. This Microservice will use native Elasticsearch client for Node.js which makes it very easy to intergrate. There are three major parts in this application,</p>
+            <p style="font-family:josefin sans;font-size:18px">This is an Elasticsearch application indexing all incoming data of articles applying mapping(Schema) on it then adding it in Index(Database). All the indexed data will be replicated which makes Elasticsearch really High redundant system. This Microservice will use native Elasticsearch client for Node.js which makes it very easy to intergrate. There are four major parts in this application,</p>
             <ul style="font-family:josefin sans;font-size:18px">
             <li>Initiating</li>
             <li>Mapping</li>
             <li>Indexing</li>
             <li>Searching</li>
             </ul><br>
-            <p style="font-family:josefin sans;font-size:18px">Everytime appication is restarted Initiation and Mapping gets performed, Indexing and Searching are done on API call.</p>
+            <p style="font-family:josefin sans;font-size:18px">Everytime appication is restarted, Initiation and Mapping gets performed, Indexing and Searching are done on API call.</p>
             <a href="https://github.com/JatinTripathi/search-service/blob/master/README.md" target="_blank" style="font-family:josefin sans;font-size:19px;color:#ffffff">[More..]</a>
           </div>
         </div>
@@ -146,7 +146,7 @@
             <a class="btn btn-default myButton2" href="https://github.com/JatinTripathi/paper-publish" target="_blank"><i class="fa fa-github"></i> GitHub Repo</a>
             <p style="font-family:josefin sans;font-size:18px">A paper publishing web application constituting a self-explanatory Docker-Compose file.<br>
             Just clone this repository, cd into it and clone API Gateway, Editor Service and Search Service repositories in it.<br>
-            Start Docker engine and type <code>docker-compose up</code> &nbsp;in terminal This will build all the microservice images using there Dockerfile, and will download all the required official images from dockerhub.</p>
+            Start Docker engine and type <code>docker-compose up</code> &nbsp;in terminal. This will build all the microservice images using their Dockerfile, and will download all the required official images from dockerhub.</p>
             <a href="https://github.com/JatinTripathi/paper-publish/blob/master/README.md" target="_blank" style="font-family:josefin sans;font-size:19px;color:#ffffff">[More..]</a>
           </div>
         </div>
